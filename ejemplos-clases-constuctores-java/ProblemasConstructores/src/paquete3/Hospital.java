@@ -56,7 +56,11 @@ public class Hospital {
 
     @Override
     public String toString() {
-
+        // Se puede utilizar obtenerCiudad() y los otros metodos porque al
+        // llamar al objeto en la clase Ejecutor ya estamos inicializando las
+        // variables y dandoles un valor el cual solo retornan los metodos
+        // antes mencionados
+ 
         String cadena = String.format("Nombre: %s\nCiudad: %s\nNumero de "
                 + "Doctores: %d\nNumero de Enfermeros: %d\n", obtenerNombre(),
                 obtenerCiudad(), obtenerNumeroDoctores(),
