@@ -5,6 +5,7 @@
  */
 package paquete2;
 
+
 /**
  *
  * @author reroes
@@ -14,11 +15,11 @@ public class Hospital {
     private String ciudad;
     private int numeroDoctores;
     private int numeroEnfermeros;
-    public Hospital(String n,String s, int m, int h){
+    public Hospital(String n,String c, int d, int e){
         nombre = n;
-        ciudad = s;
-        numeroDoctores = m;
-        numeroEnfermeros = h;
+        ciudad = c;
+        numeroDoctores = d;
+        numeroEnfermeros = e;
     }
     /*
         Crear un constructor que reciba como parámetros
